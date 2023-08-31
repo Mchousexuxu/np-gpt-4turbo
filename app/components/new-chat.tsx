@@ -174,7 +174,7 @@ export function NewChat() {
         />
       </div>
 
-      <div className={styles["masks"]} ref={maskRef}>
+{/*       <div className={styles["masks"]} ref={maskRef}>
         {groups.map((masks, i) => (
           <div key={i} className={styles["mask-row"]}>
             {masks.map((mask, index) => (
@@ -186,7 +186,7 @@ export function NewChat() {
             ))}
           </div>
         ))}
-      </div>
+      </div> */}
     </div>
   );
 }
