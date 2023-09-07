@@ -12,7 +12,7 @@ export function ModelConfigList(props: {
 
   return (
     <>
-{/*       <ListItem title={Locale.Settings.Model}>
+      {/* <ListItem title={Locale.Settings.Model}>
         <Select
           value={props.modelConfig.model}
           onChange={(e) => {
@@ -146,7 +146,7 @@ export function ModelConfigList(props: {
         ></input>
       </ListItem>
 
-      <ListItem
+      {/* <ListItem
         title={Locale.Settings.InputTemplate.Title}
         subTitle={Locale.Settings.InputTemplate.SubTitle}
       >
@@ -159,7 +159,7 @@ export function ModelConfigList(props: {
             )
           }
         ></input>
-      </ListItem>
+      </ListItem> */}
 
       <ListItem
         title={Locale.Settings.HistoryCount.Title}
@@ -197,7 +197,7 @@ export function ModelConfigList(props: {
           }
         ></input>
       </ListItem>
-      <ListItem title={Locale.Memory.Title} subTitle={Locale.Memory.Send}>
+      {/* <ListItem title={Locale.Memory.Title} subTitle={Locale.Memory.Send}>
         <input
           type="checkbox"
           checked={props.modelConfig.sendMemory}
@@ -207,7 +207,7 @@ export function ModelConfigList(props: {
             )
           }
         ></input>
-      </ListItem>
+      </ListItem> */}
     </>
   );
 }
