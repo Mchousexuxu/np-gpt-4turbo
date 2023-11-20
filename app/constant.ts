@@ -65,7 +65,7 @@ Current time: {{time}}`;
 
 export const DEFAULT_MODELS = [
   {
-    name: "gpt-4",
+    name: "gpt-4-1106-preview",
     available: true,
   },
   {
